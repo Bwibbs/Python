@@ -1,0 +1,7 @@
+#quilting variables:
+quilt_width = 8 #squares wide
+quilt_length = 8 #squares long
+
+print(quilt_width * quilt_length) # prints out number of squares needed to create quilt
+
+print(quilt_width * quilt_length) # prints out number of squares needed to create quilt after adjustments to quilt_length
