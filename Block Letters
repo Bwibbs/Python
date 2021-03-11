@@ -1,3 +1,4 @@
+#prints two letters in block form
 print('B'+'B'+'B'+'B')
 print('B'+' '+' '+' '+'B')
 print('B'+' '+' '+' '+'B')
