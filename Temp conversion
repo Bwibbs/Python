@@ -1,0 +1,13 @@
+def f_to_c(f_temp): #created function to convert fahrenheit to celsius
+  c_temp = (f_temp - 32 ) * 5/9
+  return c_temp
+
+f100_in_celcius = f_to_c(100) #calls f_to_c function, set fahrenheit to 100, and sets it as variable f100_in_celsius
+print(f_to_c(100))
+
+def c_to_f(c_temp): #created function to convert celsius to fahrenheit
+  f_temp = c_temp *(9/5) + 32
+  return f_temp
+
+c0_in_fahrenheit = c_to_f(0) #calls c_to_f function, set celsius to 0, and sets it as variable c0_in_fahrenheit
+print(c_to_f(0))
