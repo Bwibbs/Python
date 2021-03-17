@@ -1,0 +1,20 @@
+last_semester_gradebook = [("politics", 80), ("latin", 96), ("dance", 97), ("architecture", 65)]
+
+# Your code below: 
+subjects = ['physics', 'calculus', 'poetry', 'history'] #subjects list
+grades = [98, 97, 85, 88]# list of grades
+gradebook = [('physics', 98), ('calculus', 97), ('poetry', 85), ('history', 88)]# two-dimensional list containing both subjects and grades lists.
+print(gradebook) # prints gradebook list
+
+gradebook.extend([('Computer Science', 100)]) #used .extend() to add multiple arguments to gradebook list
+gradebook.extend([('Visual Arts', 93)]) #used .extend() to add multiple arguments to gradebook list
+
+
+gradebook[-1] = 97 # replaces the visual arts grade with a new grade
+print(gradebook) # prints gradebook list
+gradebook.remove(('poetry', 85)) # removes poetry subject and grade
+gradebook.extend(['poetry', 'Pass']) # adds poetry subject and pass values
+print(gradebook) # prints gradebook list
+
+full_gradebook = last_semester_gradebook + gradebook # combines both last_semester_gradebook list and gradebook list to create a new list
+print(full_gradebook) # print new list
