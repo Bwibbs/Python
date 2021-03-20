@@ -1,0 +1,40 @@
+# Your code below:
+toppings = ['pepperoni', 'pineapple', 'cheese', 'sausage', 'olives', 'anchovies', 'mushrooms']
+
+prices = [2, 6, 1, 3, 2, 7, 2]
+
+num_two_dollar_slices = prices.count(2) #counts the number of times 2 shows up in prices list and stores it as num_two_dollar_slices
+
+print(num_two_dollar_slices) #prints num_two_dollar_slices value
+
+num_pizzas = len(toppings)#calculates the length of toppings length and stores it as num_pizzas.
+
+print(num_pizzas) #prints num_pizzas.
+
+print('We sell ', num_pizzas, ' different kinds of pizza!') # should say 'We sell 7 different kinds of pizza!
+
+pizza_and_prices = [[2, 'pepperoni'], [6, 'pineapple'], [1, 'cheese'], [3, 'sausage'], [2, 'olives'], [7, 'anchovies'], [2, 'mushrooms']]# creates a new two dimensional list from the toppings and prices lists
+
+print(pizza_and_prices)# print new list
+
+pizza_and_prices.sort()# sorts the new list
+
+cheapest_pizza = pizza_and_prices[0] # stores the first element as cheapest_pizza varaible
+
+print(cheapest_pizza)
+
+priciest_pizza = pizza_and_prices[-1] #stores last element of pizza_and_prices as priciest_pizza
+
+print(priciest_pizza)
+
+pizza_and_prices.pop() #removes last element from list
+
+print(pizza_and_prices)
+
+pizza_and_prices.append((2.5 ,'peppers')) #adds new element to pizza_and_prices list
+
+print(pizza_and_prices)
+
+three_cheapest = pizza_and_prices [-3:] #removes 3 lowest cost items from pizza_and_prices list
+
+print(three_cheapest)
